@@ -1,0 +1,23 @@
+{
+  "name": "reasonable-hacker-news",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:js": "webpack -w",
+    "build:re": "bsb -make-world -w",
+    "clean:re": "bsb -clean-world"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bs-fetch": "latest",
+    "bs-platform": "^1.7.3",
+    "bs-promise": "buckletypes/bs-promise",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "reason-react": "^0.1.3",
+    "webpack": "^2.5.1"
+  }
+}
